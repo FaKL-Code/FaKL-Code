@@ -46,4 +46,6 @@
 
 ---
 
-![snake gif](https://github.com/FaKL-Code/FaKL-Code/blob/output/github-contribution-grid-snake.gif)
+<div>
+  <img src="https://github.com/FaKL-Code/FaKL-Code/blob/output/github-contribution-grid-snake.svg"/>
+</div>
