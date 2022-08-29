@@ -43,3 +43,7 @@
   <img height = "200em" width = "425" src="https://github-readme-stats.vercel.app/api?username=FaKL-Code&show_icons=true&show_icons=true&theme=bear&count_private=true" />
   <img height = "200em" width = "400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaKL-Code&show_icons=true&theme=bear&count_private=true"/>
 </div>
+
+---
+
+![snake gif](https://github.com/FaKL-Code/FaKL-Code/blob/output/github-contribution-grid-snake.gif)
