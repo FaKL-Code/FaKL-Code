@@ -19,7 +19,7 @@
 
 ---
 
-⊛ Aluno de Sistemas de informação - FIAP <br />
+⊛ Bacharel em Sistemas de informação - FIAP <br />
 ⊛ Usuário frequente da Alura <br />
 ⊛ Fã de lógica e matemática <br />
 
