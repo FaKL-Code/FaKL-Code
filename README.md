@@ -1,51 +1,81 @@
-<img src = "image_2022-08-28_013108395.png" width = "325px" align = "right">
+# 👋 Olá, eu sou Julio Facal
 
-<div id="badges">
+**Backend Developer & Systems Architect** focado em construir sistemas escaláveis, seguros e de alta performance.
 
-  <a href = "https://www.linkedin.com/in/julio-facal-584888200/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href = "https://mail.google.com/mail/?view=cm&fs=1&to=julio@facal.dev&su=FaKL-Code%20GitHub">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-  <a href = "https://discordapp.com/users/389566109512237056">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/>
-  </a>
-  <a href = "https://open.spotify.com/user/22k4xtx3awq3jccpj7ul3i2zi">
-    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Badge"/>
-  </a>
-  
+Especialista em **Java** e **Python**, com forte experiência em arquitetura de APIs, integração de sistemas e modernização de aplicações legadas. Trabalho principalmente com tecnologias como Spring Boot, FastAPI, bancos SQL/NoSQL e práticas DevOps.
+
+---
+
+## 🔧 Backend Technologies
+
+### Core Languages & Frameworks
+
+- **Java** - Spring Boot, Spring Security, JPA/Hibernate
+- **Python** - FastAPI, Django, SQLAlchemy
+- **TypeScript** - Node.js, Express (support)
+
+### Databases & Storage
+
+- **SQL**: PostgreSQL, MySQL, Oracle
+- **NoSQL**: MongoDB, Redis
+- **Cloud Storage**: AWS S3, Azure Blob
+
+### Infrastructure & DevOps
+
+- **Containerization**: Docker, Docker Compose
+- **Cloud Platforms**: AWS, Microsoft Azure
+- **CI/CD**: GitHub Actions, Azure DevOps
+- **Monitoring**: Application logging, performance metrics
+
+### API Design & Integration
+
+- RESTful API architecture
+- Microservices patterns
+- System integration & legacy modernization
+- Authentication & authorization (OAuth2, JWT)
+
+---
+
+## 🧠 Approach to System Design
+
+Acredito em **código limpo**, **arquitetura bem estruturada** e **segurança por design**. Meu foco está em:
+
+- **Escalabilidade**: Projetar sistemas que crescem com a demanda
+- **Manutenibilidade**: Código legível e bem documentado
+- **Performance**: Otimização de consultas e processamento eficiente
+- **Segurança**: Implementação de melhores práticas de segurança desde o início
+
+---
+
+## 📂 Featured Projects
+
+Explore alguns dos meus trabalhos que demonstram expertise em backend development:
+
+- **Sistema de Integração Empresarial**: Arquitetura de microserviços para sincronização de dados entre sistemas legados
+- **API de E-commerce**: RESTful API completa com autenticação, pagamentos e gerenciamento de inventário
+- **Modernização de Legacy**: Migração de sistemas monolíticos para arquitetura moderna em cloud
+
+_Confira repositórios públicos para mais detalhes sobre implementações técnicas._
+
+---
+
+## 🌐 Portfolio & Contact
+
+**🌍 Portfolio Completo**: [Julio Facal - facal.dev](https://facal.dev/)
+
+**💼 Conecte-se comigo**:
+
+- [LinkedIn](https://www.linkedin.com/in/julio-facal-584888200/)
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=FaKL-Code&theme=dark&hide_border=true&cache_seconds=86400" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaKL-Code&layout=compact&theme=dark&count_private=true&hide_border=true&include_all_commits=true&cache_seconds=86400"/>
 </div>
 
 ---
 
-⊛ Bacharel em Sistemas de Informação - FIAP <br />
-⊛ Usuário frequente da Alura <br />
-⊛ Fã de lógica e matemática <br />
-
----
-
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-plain.svg" title="Kotlin" alt="Kotlin" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp; 
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" title="AWS" alt="AWS" width="190" height="50" align = "right" />&nbsp;
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" title="Azure" alt="Azure" width="190" height="48" align = "right" />&nbsp;
-</div>
-
----
-
-<div align = "left">
-  <img height = "200em" width = "425" src="https://github-readme-stats.vercel.app/api?username=FaKL-Code&show_icons=true&show_icons=true&theme=bear&count_private=true" />
-  <img height = "200em" width = "400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaKL-Code&show_icons=true&theme=bear&count_private=true"/>
-</div>
-
----
-
-<div>
-  <img src="https://github.com/FaKL-Code/FaKL-Code/blob/output/github-contribution-grid-snake-dark.svg"/>
-</div>
+_Graduado em Sistemas de Informação pela FIAP • Apaixonado por lógica, matemática e arquitetura de software_
