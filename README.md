@@ -72,7 +72,7 @@ _Confira repositórios públicos para mais detalhes sobre implementações técn
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=FaKL-Code&theme=dark&hide_border=true&cache_seconds=86400" />
+  <img height="180em" src="https://github-profile-trophy.vercel.app/?username=FaKL-Code&theme=darkhub&no-bg=true&margin-w=10" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaKL-Code&layout=compact&theme=dark&count_private=true&hide_border=true&include_all_commits=true&cache_seconds=86400"/>
 </div>
 
