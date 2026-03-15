@@ -55,6 +55,7 @@
 <br/>
 
 <a href="https://facal.dev/"><picture>
+
   <source media="(prefers-color-scheme: dark)" srcset="readme/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="readme/footer-light.svg" />
   <img alt="See my full portfolio at facal.dev" src="readme/footer-dark.svg" width="100%" />
