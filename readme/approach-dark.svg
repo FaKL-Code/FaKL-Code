@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 226">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          width: 100%;
+          padding: 28px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          background: #0a0a0a;
+          border: 1px solid #1e293b;
+          border-radius: 10px;
+          border-right: 4px solid #2563eb;
+        }
+        .label {
+          font-size: 10px;
+          font-weight: 600;
+          color: #2563eb;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          font-family: 'Courier New', monospace;
+        }
+        .pillars { display: flex; gap: 16px; }
+        .pillar {
+          flex: 1;
+          display: flex;
+          gap: 12px;
+          padding: 14px;
+          background: rgba(37, 99, 235, 0.03);
+          border: 1px solid #1e293b;
+          border-radius: 8px;
+        }
+        .pillar-icon {
+          flex-shrink: 0;
+          width: 32px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: rgba(37, 99, 235, 0.08);
+          border-radius: 6px;
+          font-size: 14px;
+          color: #60a5fa;
+        }
+        .pillar-content { flex: 1; }
+        .pillar-title {
+          font-size: 13px;
+          font-weight: 600;
+          color: #e2e8f0;
+          margin-bottom: 6px;
+        }
+        .pillar-desc {
+          font-size: 10px;
+          color: #94a3b8;
+          line-height: 1.6;
+        }
+        .quote {
+          margin-top: 18px;
+          padding: 10px 16px;
+          border-left: 2px solid rgba(37, 99, 235, 0.3);
+          font-size: 11px;
+          color: #64748b;
+          font-style: italic;
+          font-family: 'Courier New', monospace;
+        }
+      </style>
+      <div class="card">
+        <div class="label">// approach &amp; philosophy</div>
+        <div class="pillars">
+          <div class="pillar">
+            <div class="pillar-icon">&#x25B3;</div>
+            <div class="pillar-content">
+              <div class="pillar-title">Clean Architecture</div>
+              <div class="pillar-desc">Domain-driven, loosely coupled. Code that reads well and scales without friction.</div>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">&#x25CB;</div>
+            <div class="pillar-content">
+              <div class="pillar-title">Zero-Downtime</div>
+              <div class="pillar-desc">Blue-green deploys, feature flags, backward-compatible migrations. Production never sleeps.</div>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">&#x25A1;</div>
+            <div class="pillar-content">
+              <div class="pillar-title">Integration First</div>
+              <div class="pillar-desc">Systems talk to each other. Building bridges between legacy and modern with reliable APIs.</div>
+            </div>
+          </div>
+        </div>
+        <div class="quote">"ship clean code that works at scale - everything else is noise."</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

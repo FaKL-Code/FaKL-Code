@@ -1,66 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 286">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .hero {
           width: 100%;
-          padding: 40px 32px;
+          padding: 32px 28px 32px 32px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-          background: linear-gradient(135deg, #0a0a0a 0%, #111827 50%, #0a0a0a 100%);
+          background: linear-gradient(160deg, #0d1117 0%, #0a0a0a 50%, #0a0a0a 100%);
           border: 1px solid #1e293b;
-          border-radius: 12px;
-          position: relative;
+          border-left: 4px solid #2563eb;
+          border-radius: 10px;
+          display: flex;
+          gap: 28px;
           overflow: hidden;
         }
-        .hero::before {
-          content: '';
-          position: absolute;
-          top: 0; left: 0;
-          width: 100%; height: 100%;
-          background: radial-gradient(ellipse at 20% 50%, rgba(37, 99, 235, 0.08) 0%, transparent 60%),
-                      radial-gradient(ellipse at 80% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 50%);
+        .left { flex: 1; position: relative; z-index: 1; }
+        .right {
+          width: 240px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
         }
-        .content { position: relative; z-index: 1; }
         .greeting {
-          font-size: 13px;
+          font-size: 12px;
           font-weight: 500;
           color: #2563eb;
           letter-spacing: 3px;
           text-transform: uppercase;
-          margin-bottom: 12px;
+          margin-bottom: 10px;
           font-family: 'Courier New', monospace;
         }
+        .accent-line {
+          width: 32px; height: 2px;
+          background: #2563eb;
+          margin-bottom: 14px;
+        }
         .name {
-          font-size: 42px;
+          font-size: 36px;
           font-weight: 700;
           color: #f1f5f9;
           line-height: 1.1;
-          margin-bottom: 8px;
+          margin-bottom: 6px;
         }
         .role {
-          font-size: 16px;
-          font-weight: 400;
-          color: #64748b;
-          margin-bottom: 24px;
-        }
-        .role span {
-          color: #94a3b8;
-        }
-        .bio {
           font-size: 14px;
+          color: #64748b;
+          margin-bottom: 16px;
+        }
+        .role span { color: #475569; }
+        .bio {
+          font-size: 13px;
           color: #94a3b8;
-          line-height: 1.6;
-          max-width: 560px;
+          line-height: 1.5;
         }
         .bio strong { color: #e2e8f0; }
         .location {
-          margin-top: 20px;
-          font-size: 12px;
+          margin-top: 14px;
+          font-size: 11px;
           color: #475569;
           font-family: 'Courier New', monospace;
         }
-        .location .dot {
+        .dot {
           display: inline-block;
           width: 6px; height: 6px;
           background: #22c55e;
@@ -68,22 +69,66 @@
           margin-right: 6px;
           vertical-align: middle;
         }
-        .accent-line {
-          width: 40px; height: 2px;
-          background: #2563eb;
-          margin-bottom: 16px;
+        .terminal {
+          width: 100%;
+          background: #0d1117;
+          border: 1px solid #1e293b;
+          border-radius: 8px;
+          padding: 12px 14px;
+          font-family: 'Courier New', monospace;
+          font-size: 11px;
         }
+        .terminal-header {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          margin-bottom: 10px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid #1e293b;
+        }
+        .td { width: 8px; height: 8px; border-radius: 50%; }
+        .td-r { background: #ef4444; }
+        .td-y { background: #eab308; }
+        .td-g { background: #22c55e; }
+        .tt {
+          margin-left: 6px;
+          font-size: 10px;
+          color: #475569;
+        }
+        .line { color: #94a3b8; line-height: 1.9; }
+        .prompt { color: #22c55e; }
+        .cmd { color: #e2e8f0; }
+        .output { color: #64748b; }
+        .hi { color: #60a5fa; }
       </style>
       <div class="hero">
-        <div class="content">
+        <div class="left">
           <div class="greeting">// hello world</div>
           <div class="accent-line"></div>
           <div class="name">Julio Facal</div>
           <div class="role">Backend Developer <span>·</span> Systems Integrator <span>·</span> API Architect</div>
           <div class="bio">
-            Systems Analyst at <strong>Banco Bradesco</strong>. 10+ years turning complex requirements into <strong>scalable, secure backend solutions</strong>. Specialized in legacy modernization, platform integrations, and process automation.
+            Systems Analyst at <strong>Banco Bradesco</strong>. 10+ years building
+            <strong>scalable, secure backend systems</strong> - from legacy
+            modernization to platform integrations and process automation.
           </div>
           <div class="location"><span class="dot"></span>São Paulo, Brasil</div>
+        </div>
+        <div class="right">
+          <div class="terminal">
+            <div class="terminal-header">
+              <div class="td td-r"></div>
+              <div class="td td-y"></div>
+              <div class="td td-g"></div>
+              <span class="tt">~/.dev</span>
+            </div>
+            <div class="line"><span class="prompt">$</span> <span class="cmd">java --version</span></div>
+            <div class="line"><span class="output">openjdk 21.0.2</span></div>
+            <div class="line"><span class="prompt">$</span> <span class="cmd">mvn spring-boot:run</span></div>
+            <div class="line"><span class="hi">[INFO]</span> <span class="output">Started in 1.8s</span></div>
+            <div class="line"><span class="prompt">$</span> <span class="cmd">docker ps</span></div>
+            <div class="line"><span class="output">3 containers running</span></div>
+          </div>
         </div>
       </div>
     </div>

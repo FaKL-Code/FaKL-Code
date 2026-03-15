@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 480 271">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .card {
           width: 100%;
-          padding: 28px 28px;
+          padding: 24px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           background: #0a0a0a;
           border: 1px solid #1e293b;
@@ -17,19 +17,24 @@
           color: #2563eb;
           letter-spacing: 2px;
           text-transform: uppercase;
-          margin-bottom: 16px;
+          margin-bottom: 18px;
           font-family: 'Courier New', monospace;
         }
-        .grid {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 8px;
+        .section { margin-bottom: 14px; }
+        .section:last-child { margin-bottom: 0; }
+        .section-title {
+          font-size: 9px;
+          color: #475569;
+          font-family: 'Courier New', monospace;
+          margin-bottom: 8px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
         }
+        .grid { display: flex; flex-wrap: wrap; gap: 6px; }
         .tag {
           display: inline-flex;
-          align-items: center;
-          padding: 6px 14px;
-          font-size: 12px;
+          padding: 5px 12px;
+          font-size: 11px;
           font-weight: 500;
           color: #e2e8f0;
           background: #1e293b;
@@ -37,33 +42,42 @@
           border-radius: 6px;
           font-family: 'Courier New', monospace;
         }
-        .tag .icon {
-          margin-right: 6px;
-          font-size: 14px;
-        }
         .primary {
-          background: rgba(37, 99, 235, 0.1);
+          background: rgba(37, 99, 235, 0.12);
           border-color: rgba(37, 99, 235, 0.3);
           color: #93c5fd;
         }
       </style>
       <div class="card">
         <div class="label">// tech stack</div>
-        <div class="grid">
-          <span class="tag primary">Java</span>
-          <span class="tag primary">Spring Boot</span>
-          <span class="tag primary">Python</span>
-          <span class="tag">FastAPI</span>
-          <span class="tag">TypeScript</span>
-          <span class="tag">PostgreSQL</span>
-          <span class="tag">MongoDB</span>
-          <span class="tag">Redis</span>
-          <span class="tag">Docker</span>
-          <span class="tag">AWS</span>
-          <span class="tag">Azure</span>
-          <span class="tag">REST APIs</span>
-          <span class="tag">Microservices</span>
-          <span class="tag">CI/CD</span>
+        <div class="section">
+          <div class="section-title">languages &amp; frameworks</div>
+          <div class="grid">
+            <span class="tag primary">Java</span>
+            <span class="tag primary">Spring Boot</span>
+            <span class="tag primary">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-title">data</div>
+          <div class="grid">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Redis</span>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section-title">infra &amp; practices</div>
+          <div class="grid">
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Azure</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">CI/CD</span>
+          </div>
         </div>
       </div>
     </div>

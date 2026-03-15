@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 266">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .card {
+          width: 100%;
+          padding: 28px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          background: #0a0a0a;
+          border: 1px solid #1e293b;
+          border-radius: 10px;
+        }
+        .label {
+          font-size: 10px;
+          font-weight: 600;
+          color: #2563eb;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          margin-bottom: 18px;
+          font-family: 'Courier New', monospace;
+        }
+        .projects { display: flex; gap: 12px; }
+        .project {
+          flex: 1;
+          padding: 16px;
+          background: linear-gradient(135deg, rgba(37, 99, 235, 0.04), transparent);
+          border: 1px solid #1e293b;
+          border-radius: 8px;
+          transition: border-color 0.2s;
+        }
+        .project:hover { border-color: rgba(37, 99, 235, 0.4); }
+        .project-header {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 10px;
+        }
+        .project-icon {
+          font-size: 14px;
+          color: #475569;
+        }
+        .project-name {
+          font-size: 14px;
+          font-weight: 600;
+          color: #e2e8f0;
+        }
+        .project-desc {
+          font-size: 11px;
+          color: #94a3b8;
+          line-height: 1.5;
+          margin-bottom: 12px;
+        }
+        .project-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+        .ptag {
+          padding: 3px 8px;
+          font-size: 9px;
+          color: #64748b;
+          background: #1e293b;
+          border-radius: 4px;
+          font-family: 'Courier New', monospace;
+        }
+        .ptag.main {
+          color: #60a5fa;
+          background: rgba(37, 99, 235, 0.1);
+        }
+        .project-type {
+          font-size: 9px;
+          color: #475569;
+          font-family: 'Courier New', monospace;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+      </style>
+      <div class="card">
+        <div class="label">// featured projects</div>
+        <div class="projects">
+          <div class="project">
+            <div class="project-type">portfolio</div>
+            <div class="project-header">
+              <span class="project-icon">&#x25C6;</span>
+              <span class="project-name">facal.dev</span>
+            </div>
+            <div class="project-desc">Personal portfolio built with modern stack. Dark-themed, animated, responsive. Showcases backend expertise through clean design.</div>
+            <div class="project-tags">
+              <span class="ptag main">React</span>
+              <span class="ptag main">TypeScript</span>
+              <span class="ptag">Tailwind</span>
+              <span class="ptag">Framer Motion</span>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-type">enterprise</div>
+            <div class="project-header">
+              <span class="project-icon">&#x25C6;</span>
+              <span class="project-name">Banking Integrations</span>
+            </div>
+            <div class="project-desc">Microservices architecture for financial platform integrations. Legacy system modernization with zero-downtime migration strategy.</div>
+            <div class="project-tags">
+              <span class="ptag main">Java</span>
+              <span class="ptag main">Spring Boot</span>
+              <span class="ptag">Azure</span>
+              <span class="ptag">Docker</span>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-type">automation</div>
+            <div class="project-header">
+              <span class="project-icon">&#x25C6;</span>
+              <span class="project-name">Process Automation</span>
+            </div>
+            <div class="project-desc">Automated data pipelines and internal tooling for financial operations. Reduced manual processing time by 60%+.</div>
+            <div class="project-tags">
+              <span class="ptag main">Python</span>
+              <span class="ptag main">FastAPI</span>
+              <span class="ptag">PostgreSQL</span>
+              <span class="ptag">Redis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

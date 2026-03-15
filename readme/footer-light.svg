@@ -1,46 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 130">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 400 91">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        .card {
+        .footer {
           width: 100%;
-          padding: 24px 28px;
+          padding: 18px 24px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-          background: linear-gradient(135deg, #fafafa 0%, #f1f5f9 100%);
+          background: linear-gradient(135deg, #ffffff, #f8fafc);
           border: 1px solid #e2e8f0;
-          border-radius: 10px;
+          border-radius: 8px;
           text-align: center;
-        }
-        .tagline {
-          font-size: 12px;
-          color: #64748b;
-          margin-bottom: 12px;
-          font-family: 'Courier New', monospace;
         }
         .cta {
           display: inline-block;
-          padding: 10px 28px;
-          font-size: 14px;
+          padding: 8px 24px;
+          font-size: 13px;
           font-weight: 600;
           color: #ffffff;
           background: #2563eb;
-          border-radius: 8px;
-          text-decoration: none;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          border-radius: 6px;
           letter-spacing: 0.3px;
         }
-        .footer-text {
-          margin-top: 14px;
-          font-size: 11px;
+        .sub {
+          margin-top: 10px;
+          font-size: 10px;
           color: #94a3b8;
           font-family: 'Courier New', monospace;
         }
       </style>
-      <div class="card">
-        <div class="tagline">Graduado em Sistemas de Informação · FIAP</div>
-        <span class="cta">See my full portfolio → facal.dev</span>
-        <div class="footer-text">Backend · Integration · Architecture</div>
+      <div class="footer">
+        <span class="cta">facal.dev &#x2192;</span>
+        <div class="sub">backend · integration · architecture</div>
       </div>
     </div>
   </foreignObject>
