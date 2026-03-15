@@ -13,6 +13,8 @@
   <source media="(prefers-color-scheme: light)" srcset="readme/tech-light.svg" />
   <img alt="Tech Stack" src="readme/tech-dark.svg" width="100%" />
 </picture>
+<br />
+<br />
 <p align="center">
 <img src="https://img.shields.io/badge/Java-2563eb?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />&nbsp;
 <img src="https://img.shields.io/badge/Spring_Boot-2563eb?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />&nbsp;
