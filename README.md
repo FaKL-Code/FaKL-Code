@@ -1,81 +1,61 @@
-# 👋 Olá, eu sou Julio Facal
-
-**Backend Developer & Systems Architect** focado em construir sistemas escaláveis, seguros e de alta performance.
-
-Especialista em **Java** e **Python**, com forte experiência em arquitetura de APIs, integração de sistemas e modernização de aplicações legadas. Trabalho principalmente com tecnologias como Spring Boot, FastAPI, bancos SQL/NoSQL e práticas DevOps.
-
----
-
-## 🔧 Backend Technologies
-
-### Core Languages & Frameworks
-
-- **Java** - Spring Boot, Spring Security, JPA/Hibernate
-- **Python** - FastAPI, Django, SQLAlchemy
-- **TypeScript** - Node.js, Express (support)
-
-### Databases & Storage
-
-- **SQL**: PostgreSQL, MySQL, Oracle
-- **NoSQL**: MongoDB, Redis
-- **Cloud Storage**: AWS S3, Azure Blob
-
-### Infrastructure & DevOps
-
-- **Containerization**: Docker, Docker Compose
-- **Cloud Platforms**: AWS, Microsoft Azure
-- **CI/CD**: GitHub Actions, Azure DevOps
-- **Monitoring**: Application logging, performance metrics
-
-### API Design & Integration
-
-- RESTful API architecture
-- Microservices patterns
-- System integration & legacy modernization
-- Authentication & authorization (OAuth2, JWT)
-
----
-
-## 🧠 Approach to System Design
-
-Acredito em **código limpo**, **arquitetura bem estruturada** e **segurança por design**. Meu foco está em:
-
-- **Escalabilidade**: Projetar sistemas que crescem com a demanda
-- **Manutenibilidade**: Código legível e bem documentado
-- **Performance**: Otimização de consultas e processamento eficiente
-- **Segurança**: Implementação de melhores práticas de segurança desde o início
-
----
-
-## 📂 Featured Projects
-
-Explore alguns dos meus trabalhos que demonstram expertise em backend development:
-
-- **Sistema de Integração Empresarial**: Arquitetura de microserviços para sincronização de dados entre sistemas legados
-- **API de E-commerce**: RESTful API completa com autenticação, pagamentos e gerenciamento de inventário
-- **Modernização de Legacy**: Migração de sistemas monolíticos para arquitetura moderna em cloud
-
-_Confira repositórios públicos para mais detalhes sobre implementações técnicas._
-
----
-
-## 🌐 Portfolio & Contact
-
-**🌍 Portfolio Completo**: [Julio Facal - facal.dev](https://facal.dev/)
-
-**💼 Conecte-se comigo**:
-
-- [LinkedIn](https://www.linkedin.com/in/julio-facal-584888200/)
-
----
-
-## 📈 GitHub Stats
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="readme/hero-light.svg" />
+  <img alt="Julio Facal — Backend Developer, Systems Integrator, API Architect" src="readme/hero-dark.svg" width="100%" />
+</picture>
 
 <div align="center">
-  <img height="180em" src="https://github-profile-trophy.vercel.app/?username=FaKL-Code&theme=darkhub&no-bg=true&margin-w=10" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaKL-Code&layout=compact&theme=dark&count_private=true&hide_border=true&include_all_commits=true&cache_seconds=86400"/>
+
+[![Portfolio](https://img.shields.io/badge/facal.dev-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white)](https://facal.dev/)&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/julio-facal-584888200/)&nbsp;[![Email](https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:julio@facal.dev)
+
 </div>
 
----
+<br/>
 
-_Graduado em Sistemas de Informação pela FIAP • Apaixonado por lógica, matemática e arquitetura de software_
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/tech-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="readme/tech-light.svg" />
+  <img alt="Tech Stack" src="readme/tech-dark.svg" width="100%" />
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/certs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="readme/certs-light.svg" />
+  <img alt="Certifications" src="readme/certs-dark.svg" width="100%" />
+</picture>
+
+<br/>
+
+<details>
+<summary><code>// github analytics</code></summary>
+<br/>
+
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=FaKL-Code&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&ring_color=2563eb&icon_color=2563eb&title_color=2563eb&text_color=a1a1aa" />&nbsp;<img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=FaKL-Code&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=A1A1AA&dates=a1a1aa" />
+
+</div>
+
+</details>
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FaKL-Code/FaKL-Code/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FaKL-Code/FaKL-Code/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/FaKL-Code/FaKL-Code/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+<br/>
+
+<a href="https://facal.dev/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="readme/footer-light.svg" />
+  <img alt="See my full portfolio at facal.dev" src="readme/footer-dark.svg" width="100%" />
+</picture></a>
