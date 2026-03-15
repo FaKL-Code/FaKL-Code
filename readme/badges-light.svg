@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 60">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 5px;">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .bar {
+          width: 100%;
+          padding: 12px 28px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          background: #ffffff;
+          border: 1px solid #e2e8f0;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+        }
+        .badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          font-size: 11px;
+          font-weight: 500;
+          color: #1d4ed8;
+          background: rgba(37, 99, 235, 0.06);
+          border: 1px solid rgba(37, 99, 235, 0.15);
+          border-radius: 6px;
+          font-family: 'Courier New', monospace;
+          text-decoration: none;
+        }
+        .badge .icon {
+          font-size: 13px;
+        }
+        .sep {
+          width: 1px;
+          height: 16px;
+          background: #e2e8f0;
+        }
+      </style>
+      <div class="bar">
+        <a class="badge" href="https://facal.dev/">
+          <span class="icon">◆</span> facal.dev
+        </a>
+        <div class="sep"></div>
+        <a class="badge" href="https://www.linkedin.com/in/julio-facal-584888200/">
+          <span class="icon">■</span> LinkedIn
+        </a>
+        <div class="sep"></div>
+        <a class="badge" href="mailto:julio@facal.dev">
+          <span class="icon">▸</span> julio@facal.dev
+        </a>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

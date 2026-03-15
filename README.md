@@ -13,6 +13,18 @@
   <source media="(prefers-color-scheme: light)" srcset="readme/tech-light.svg" />
   <img alt="Tech Stack" src="readme/tech-dark.svg" width="100%" />
 </picture>
+<p align="center">
+<img src="https://img.shields.io/badge/Java-2563eb?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />&nbsp;
+<img src="https://img.shields.io/badge/Spring_Boot-2563eb?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />&nbsp;
+<img src="https://img.shields.io/badge/Python-2563eb?style=flat-square&logo=python&logoColor=white" alt="Python" />&nbsp;
+<img src="https://img.shields.io/badge/Docker-2563eb?style=flat-square&logo=docker&logoColor=white" alt="Docker" />&nbsp;
+<img src="https://img.shields.io/badge/AWS-2563eb?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />&nbsp;
+<img src="https://img.shields.io/badge/Azure-2563eb?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />&nbsp;
+<img src="https://img.shields.io/badge/PostgreSQL-2563eb?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />&nbsp;
+<img src="https://img.shields.io/badge/Redis-2563eb?style=flat-square&logo=redis&logoColor=white" alt="Redis" />&nbsp;
+<img src="https://img.shields.io/badge/REST_APIs-2563eb?style=flat-square" alt="REST APIs" />&nbsp;
+<img src="https://img.shields.io/badge/CI%2FCD-2563eb?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
+</p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="readme/approach-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="readme/approach-light.svg" />
