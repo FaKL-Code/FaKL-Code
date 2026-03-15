@@ -4,9 +4,6 @@
   <img alt="Julio Facal - Backend Developer, Systems Integrator, API Architect" src="readme/hero-dark.svg" width="100%" />
 </picture>
 
-<p align="center">
-</p>
-
 <!-- ═══════════════ EXPERIENCE TIMELINE ═══════════════ -->
 
 <picture>
@@ -31,14 +28,6 @@
   <img alt="Approach & Philosophy" src="readme/approach-dark.svg" width="100%" />
 </picture>
 
-<!-- ═══════════════ FEATURED PROJECTS ═══════════════ -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="readme/projects-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="readme/projects-light.svg" />
-  <img alt="Featured Projects" src="readme/projects-dark.svg" width="100%" />
-</picture>
-
 <!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
 
 <picture>
@@ -55,8 +44,6 @@
 
 </div>
 
-<br/>
-
 <!-- ═══════════════ SNAKE ═══════════════ -->
 
 <picture>
@@ -64,8 +51,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FaKL-Code/FaKL-Code/output/github-contribution-grid-snake.svg" />
   <img alt="Snake animation" src="https://raw.githubusercontent.com/FaKL-Code/FaKL-Code/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
-
-<br/>
 
 <!-- ═══════════════ FOOTER CTA ═══════════════ -->
 
