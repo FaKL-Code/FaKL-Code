@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 226">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 380">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 3px;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 5px;">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .card {
@@ -21,7 +21,7 @@
           margin-bottom: 20px;
           font-family: 'Courier New', monospace;
         }
-        .pillars { display: flex; gap: 16px; }
+        .pillars { display: flex; flex-direction: column; gap: 10px; }
         .pillar {
           flex: 1;
           display: flex;
