@@ -10,12 +10,12 @@
 <tr>
 <td>
 
-<img src="https://stats.facal.dev/api/iceberg?theme=mono" alt="Public versus private work" width="424">
+<img src="https://stats.facal.dev/api/clock?theme=mono" alt="Commits by hour of day" width="424">
 
 </td>
 <td>
 
-<img src="https://stats.facal.dev/api/clock?theme=mono" alt="Commits by hour of day" width="424">
+<img src="https://stats.facal.dev/api/radar?theme=mono" alt="Skill radar by discipline" width="424">
 
 </td>
 </tr>
