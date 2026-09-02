@@ -1,6 +1,12 @@
 <div align="center">
 
-<img src="https://stats.facal.dev/api/board?cards=hero%3Bstats%3Bclock%2Cradar%3Btech%3Bdna%3Bactivity%3Bpunchcard%3Bmomentum&theme=mono" alt="GitHub profile" width="860">
+  
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://stats.facal.dev/api/board?cards=hero%3Bstats%3Bclock%2Cradar%3Btech%3Bdna%3Bactivity%3Bpunchcard%3Bmomentum&theme=mono">
+  <source media="(prefers-color-scheme: light)" srcset="https://stats.facal.dev/api/board?cards=hero%3Bstats%3Bclock%2Cradar%3Btech%3Bdna%3Bactivity%3Bpunchcard%3Bmomentum&theme=minimal">
+  <img src="https://stats.facal.dev/api/board?cards=hero%3Bstats%3Bclock%2Cradar%3Btech%3Bdna%3Bactivity%3Bpunchcard%3Bmomentum&theme=mono" alt="GitHub profile" width="860">
+</picture>
+
 
 <sub>
 <a href="https://facal.dev">facal.dev</a>
